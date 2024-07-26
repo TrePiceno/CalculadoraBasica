@@ -70,3 +70,10 @@ main {
     gap: 10px;
     margin-top: 25px;
   }
+
+  @media (max-width: 482px) {
+
+    main {
+      width: 380px;
+    }
+  }
