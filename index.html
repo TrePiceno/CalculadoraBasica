@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="calculadora">
+            <div id="inputs">
+                <input type="text" placeholder="Primer Valor" id="valorUno">
+                <input type="text" placeholder="Segundo Valor" id="valorDos">
+                <input type="text" placeholder="Resultado" id="resultado">
+            </div>
+            <div class="grid">
+                <button onclick="sumar()">+</button>
+                <button onclick="restar()">-</button>
+                <button onclick="multiplicar()">*</button>
+                <button onclick="dividir()">/</button>
+                <button onclick="sacarRaiz()">√</button>
+                <button onclick="potenciar()">^</button>
+                <button onclick="obtenerAbsoluto()">||</button>
+                <button onclick="obtenerNumeroRandom()">Rand</button>
+                <button onclick="redondear()">Round</button>
+                <button onclick="redondearAbajo()">Floor</button>
+                <button onclick="redondearArriba()">Ceil</button>
+                <button onclick="location.reload()">C</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
