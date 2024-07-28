@@ -25,7 +25,7 @@ main {
     gap: 5px;
     margin: auto;
     padding: 140px 120px 200px 120px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 15px;
     width: 150px;
     height: 200px;
@@ -75,5 +75,19 @@ main {
 
     main {
       width: 380px;
+    }
+
+    .calculadora {
+      width: 100px;
+    }
+
+    .calculadora input[type="text"] {
+      width: 19.5em;
+      padding: 13px;
+    }
+
+    .calculadora button {
+      width: 6em;
+      height: 3.5em;
     }
   }
